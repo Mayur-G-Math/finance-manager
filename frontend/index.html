@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finora | Personal Finance Management</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="landing-page">
+    <div class="page-shell">
+      <header class="landing-header">
+        <a class="brand" href="/">Finora</a>
+        <nav class="landing-nav">
+          <a href="/login" class="ghost-button">Login</a>
+          <a href="/signup" class="primary-button">Get Started</a>
+        </nav>
+      </header>
+
+      <main class="landing-main">
+        <section class="hero-card glass-card reveal">
+          <div class="hero-copy">
+            <span class="eyebrow">Premium personal finance control</span>
+            <h1>Budget, track, and understand your money in one elegant dashboard.</h1>
+            <p>
+              Finora combines smart budgeting, transaction tracking, rich analytics, and
+              Supabase-powered authentication in a dark, responsive experience.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="/signup">Create account</a>
+              <a class="ghost-button" href="/login">Sign in</a>
+            </div>
+            <ul class="hero-points">
+              <li>Monthly and category budgets</li>
+              <li>Insightful charts and smart alerts</li>
+              <li>Quick add workflow with smooth animations</li>
+            </ul>
+          </div>
+          <div class="hero-preview">
+            <div class="preview-card premium-panel">
+              <div class="preview-top">
+                <span>Monthly summary</span>
+                <span class="accent-pill">This month</span>
+              </div>
+              <div class="preview-metrics">
+                <article>
+                  <small>Income</small>
+                  <strong>$8,450</strong>
+                </article>
+                <article>
+                  <small>Expenses</small>
+                  <strong>$3,280</strong>
+                </article>
+                <article>
+                  <small>Balance</small>
+                  <strong>$5,170</strong>
+                </article>
+              </div>
+              <div class="preview-wave"></div>
+              <div class="preview-list">
+                <div><span>Housing</span><strong>38%</strong></div>
+                <div><span>Groceries</span><strong>14%</strong></div>
+                <div><span>Transport</span><strong>9%</strong></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/js/auth.js"></script>
+  </body>
+</html>

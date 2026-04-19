@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Finora</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="auth-page">
+    <main class="auth-shell">
+      <section class="auth-card glass-card reveal">
+        <a class="brand brand-inline" href="/">Finora</a>
+        <h1>Create your account</h1>
+        <p>Start budgeting with a fast, mobile-first dashboard.</p>
+        <form id="signup-form" class="auth-form">
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>Password</span>
+            <input type="password" name="password" placeholder="At least 6 characters" minlength="6" required />
+          </label>
+          <button type="submit" class="primary-button full-width">Create account</button>
+        </form>
+        <p class="auth-feedback" id="auth-feedback"></p>
+        <div class="auth-footer">
+          <span>Already have an account?</span>
+          <a href="/login">Sign in</a>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/js/auth.js"></script>
+  </body>
+</html>
